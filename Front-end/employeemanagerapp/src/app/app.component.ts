@@ -2,7 +2,6 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Employee } from './interface/employee';
 import { EmployeeService } from './service/employee.service';
-import {Observable, interval, Subscription, of} from "rxjs";
 import { NgForm } from '@angular/forms';
 
 @Component({
